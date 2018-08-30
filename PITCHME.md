@@ -1,8 +1,8 @@
----?image=assets/images/feedback.jpg&size=cover&opacity=20
-
-## Hello, World!
-
 ---?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
+
+# Hello, World!
+
+---
 
 ## What is SaaS
 
@@ -10,7 +10,9 @@
 
 @title[What is SaaS]
 
+@snap[north]
 ### SaaS
+@snapend
 
 Software as a service.
 
@@ -19,7 +21,14 @@ delivery model in which software is licensed on
 a subscription basis and is centrally hosted.
 It is sometimes referred to as "on-demand software"
 
+ref.
+Software as a service. (n.d.). In Wikipedia. Retrieved 25 August 2018, from https://en.wikipedia.org/wiki/Software_as_a_service
+
 ---
+
+@snap[north]
+### SaaS
+@snapend
 
 ### Types of SaaS
 
@@ -28,13 +37,13 @@ It is sometimes referred to as "on-demand software"
 
 ---
 
-### Horizontal SaaS
+#### Horizontal SaaS
 
 ![Horizontal SaaS](https://cdn-images-1.medium.com/max/1600/1*9wzUWCX6T05EN4ujqvzbwg.png)
 
 ---
 
-### Vertical SaaS
+#### Vertical SaaS
 
 ![Vertical SaaS](https://cdn-images-1.medium.com/max/1600/1*fvq5cip8liiGVCX0BsOnvA.png)
 
@@ -56,13 +65,31 @@ It is sometimes referred to as "on-demand software"
 ---
 
 ### OpenSaaS
-OpenSaaS refers to software as a service (SaaS) based on open source code.
-Similar to SaaS applications, Open SaaS is a web-based application that is hosted,
+<br>
+OpenSaaS refers to software as a service (SaaS)
+based on @color[red](open source code).
+<br>
+Similar to SaaS applications, Open SaaS
+is a web-based application that is hosted,
 supported and maintained by a service provider.
+
+ref.
+OpenSaaS. (n.d.). In Wikipedia. Retrieved 26 August 2018, from https://en.wikipedia.org/wiki/OpenSaaS
 
 ---
 
+### Operational SaaS in b→dash
 
+#### SaaS
+1. CicleCI
+2. Pagerduty
+3. Codacy
+
+#### OpenSaaS
+1. Orangesys
+2. Logz.io
+3. Redash
+4. Discourse
 
 ---
 
@@ -77,15 +104,12 @@ supported and maintained by a service provider.
 @ulend
 
 ---
----
----
----
----
 
-ref.
-- Software as a service. (n.d.). In Wikipedia. Retrieved 25 August 2018, from https://en.wikipedia.org/wiki/Software_as_a_service
+## References of OpenSaaS (cncf landscape()
 
-- OpenSaaS. (n.d.). In Wikipedia. Retrieved 26 August 2018, from https://en.wikipedia.org/wiki/OpenSaaS
+https://landscape.cncf.io/
+
+![cncf landscape](https://github.com/cncf/landscape/raw/master/landscape/CloudNativeLandscape_latest.png)
 
 ---
 
